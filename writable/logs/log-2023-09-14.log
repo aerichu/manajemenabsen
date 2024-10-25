@@ -1,0 +1,100 @@
+ERROR - 2023-09-14 03:45:13 --> mysqli_sql_exception: Unknown column 'id_brgk' in 'where clause' in C:\ari\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ari\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `br...', 0)
+#1 C:\ari\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `br...')
+#2 C:\ari\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `br...')
+#3 C:\ari\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `br...', Array, false)
+#4 C:\ari\app\Models\M_gudang.php(33): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\ari\app\Controllers\Home.php(203): App\Models\M_gudang->hapus('brg_k', Array)
+#6 C:\ari\system\CodeIgniter.php(915): App\Controllers\Home->hapus_barangk('7')
+#7 C:\ari\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\ari\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ari\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\ari\system\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\i...')
+#11 {main}
+CRITICAL - 2023-09-14 03:45:13 --> Unknown column 'id_brgk' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `brg_k`
+WHERE `id_brgk` = :id_brgk:', [...], false)
+ 2 APPPATH\Models\M_gudang.php(33): CodeIgniter\Database\BaseBuilder->delete([...])
+ 3 APPPATH\Controllers\Home.php(203): App\Models\M_gudang->hapus('brg_k', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->hapus_barangk('7')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+ERROR - 2023-09-14 03:57:02 --> mysqli_sql_exception: Unknown column 'id_brgk' in 'where clause' in C:\ari\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ari\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `br...', 0)
+#1 C:\ari\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `br...')
+#2 C:\ari\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `br...')
+#3 C:\ari\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `br...', Array, false)
+#4 C:\ari\app\Models\M_gudang.php(33): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\ari\app\Controllers\Home.php(203): App\Models\M_gudang->hapus('brg_k', Array)
+#6 C:\ari\system\CodeIgniter.php(915): App\Controllers\Home->hapus_barangk('7')
+#7 C:\ari\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\ari\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ari\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\ari\system\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\i...')
+#11 {main}
+CRITICAL - 2023-09-14 03:57:02 --> Unknown column 'id_brgk' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `brg_k`
+WHERE `id_brgk` = :id_brgk:', [...], false)
+ 2 APPPATH\Models\M_gudang.php(33): CodeIgniter\Database\BaseBuilder->delete([...])
+ 3 APPPATH\Controllers\Home.php(203): App\Models\M_gudang->hapus('brg_k', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->hapus_barangk('7')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+ERROR - 2023-09-14 03:58:54 --> mysqli_sql_exception: Unknown column 'id_brgk' in 'where clause' in C:\ari\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ari\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `br...', 0)
+#1 C:\ari\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `br...')
+#2 C:\ari\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `br...')
+#3 C:\ari\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `br...', Array, false)
+#4 C:\ari\app\Models\M_gudang.php(33): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\ari\app\Controllers\Home.php(203): App\Models\M_gudang->hapus('brg_k', Array)
+#6 C:\ari\system\CodeIgniter.php(915): App\Controllers\Home->hapus_barangk('7')
+#7 C:\ari\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\ari\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ari\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\ari\system\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\i...')
+#11 {main}
+CRITICAL - 2023-09-14 03:58:54 --> Unknown column 'id_brgk' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `brg_k`
+WHERE `id_brgk` = :id_brgk:', [...], false)
+ 2 APPPATH\Models\M_gudang.php(33): CodeIgniter\Database\BaseBuilder->delete([...])
+ 3 APPPATH\Controllers\Home.php(203): App\Models\M_gudang->hapus('brg_k', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->hapus_barangk('7')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+ERROR - 2023-09-14 03:59:29 --> mysqli_sql_exception: Unknown column 'id_brgk' in 'where clause' in C:\ari\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ari\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `br...', 0)
+#1 C:\ari\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `br...')
+#2 C:\ari\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `br...')
+#3 C:\ari\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `br...', Array, false)
+#4 C:\ari\app\Models\M_gudang.php(33): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\ari\app\Controllers\Home.php(203): App\Models\M_gudang->hapus('brg_k', Array)
+#6 C:\ari\system\CodeIgniter.php(915): App\Controllers\Home->hapus_barangk('7')
+#7 C:\ari\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\ari\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ari\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\ari\system\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\i...')
+#11 {main}
+CRITICAL - 2023-09-14 03:59:29 --> Unknown column 'id_brgk' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `brg_k`
+WHERE `id_brgk` = :id_brgk:', [...], false)
+ 2 APPPATH\Models\M_gudang.php(33): CodeIgniter\Database\BaseBuilder->delete([...])
+ 3 APPPATH\Controllers\Home.php(203): App\Models\M_gudang->hapus('brg_k', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->hapus_barangk('7')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')

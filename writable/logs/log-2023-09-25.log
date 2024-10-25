@@ -1,0 +1,24 @@
+CRITICAL - 2023-09-25 04:56:12 --> Undefined variable $ko
+in APPPATH\Views\usera.php on line 29.
+ 1 APPPATH\Views\usera.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ko', 'C:\\ari\\app\\Views\\usera.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\ari\\app\\Views\\usera.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usera', [], true)
+ 5 APPPATH\Controllers\Home.php(245): view('usera', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->user()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-09-25 04:56:43 --> Undefined variable $ko
+in APPPATH\Views\usera.php on line 29.
+ 1 APPPATH\Views\usera.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ko', 'C:\\ari\\app\\Views\\usera.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\ari\\app\\Views\\usera.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usera', [], true)
+ 5 APPPATH\Controllers\Home.php(245): view('usera', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->user()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')

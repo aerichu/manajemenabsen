@@ -1,0 +1,172 @@
+CRITICAL - 2023-10-18 01:55:05 --> Too few arguments to function App\Controllers\Home::pp(), 0 passed in C:\ari\system\CodeIgniter.php on line 915 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 542.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->pp()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:11:36 --> Undefined variable $id
+in APPPATH\Controllers\Home.php on line 165.
+ 1 APPPATH\Controllers\Home.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\ari\\app\\Controllers\\Home.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barangm()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:11:48 --> Too few arguments to function App\Controllers\Home::aksi_t_barangm(), 0 passed in C:\ari\system\CodeIgniter.php on line 915 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 159.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barangm()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:13:36 --> Too few arguments to function App\Controllers\Home::aksi_t_barangm(), 0 passed in C:\ari\system\CodeIgniter.php on line 915 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 159.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barangm()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:13:48 --> Too few arguments to function App\Controllers\Home::aksi_t_barangm(), 0 passed in C:\ari\system\CodeIgniter.php on line 915 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 159.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barangm()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:14:42 --> Undefined variable $id
+in APPPATH\Controllers\Home.php on line 165.
+ 1 APPPATH\Controllers\Home.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\ari\\app\\Controllers\\Home.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barangm()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:17:10 --> Undefined variable $id
+in APPPATH\Controllers\Home.php on line 165.
+ 1 APPPATH\Controllers\Home.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\ari\\app\\Controllers\\Home.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barangm()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:17:13 --> Undefined variable $id
+in APPPATH\Controllers\Home.php on line 165.
+ 1 APPPATH\Controllers\Home.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\ari\\app\\Controllers\\Home.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barangm()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:17:18 --> Undefined variable $id
+in APPPATH\Controllers\Home.php on line 165.
+ 1 APPPATH\Controllers\Home.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\ari\\app\\Controllers\\Home.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barangm()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+ERROR - 2023-10-18 04:17:55 --> mysqli_sql_exception: Unknown column 'tanggal_m' in 'field list' in C:\ari\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ari\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `br...', 0)
+#1 C:\ari\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `br...')
+#2 C:\ari\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `br...')
+#3 C:\ari\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `br...', Array, false)
+#4 C:\ari\app\Models\M_gudang.php(45): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\ari\app\Controllers\Home.php(171): App\Models\M_gudang->tambah('brg_m', Array)
+#6 C:\ari\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barangm()
+#7 C:\ari\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\ari\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ari\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\ari\system\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\i...')
+#11 {main}
+CRITICAL - 2023-10-18 04:17:55 --> Unknown column 'tanggal_m' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `brg_m` (`id_brg`, `jumlah`, `tanggal_m`) VALUES (:id_brg:, :jumlah:, :tanggal_m:)', [...], false)
+ 2 APPPATH\Models\M_gudang.php(45): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_gudang->tambah('brg_m', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:22:45 --> Undefined variable $t
+in APPPATH\Views\tesdoangk.php on line 42.
+ 1 APPPATH\Views\tesdoangk.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t', 'C:\\ari\\app\\Views\\tesdoangk.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\ari\\app\\Views\\tesdoangk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tesdoangk', [], true)
+ 5 APPPATH\Controllers\Home.php(247): view('tesdoangk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tambah_barangk()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:36:29 --> Invalid file: "laporanm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporanm.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('laporanm', [], true)
+ 3 APPPATH\Controllers\Home.php(704): view('laporanm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporanm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:36:44 --> Invalid file: "laporanm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporanm.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('laporanm', [], true)
+ 3 APPPATH\Controllers\Home.php(704): view('laporanm')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporanm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:36:47 --> Invalid file: "laporanm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporanm.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('laporanm', [], true)
+ 3 APPPATH\Controllers\Home.php(704): view('laporanm')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporanm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:36:48 --> Invalid file: "laporanm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporanm.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('laporanm', [], true)
+ 3 APPPATH\Controllers\Home.php(704): view('laporanm')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporanm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-18 04:42:53 --> Cannot redeclare App\Controllers\Home::bm()
+in APPPATH\Controllers\Home.php on line 696.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-18 04:44:05 --> Cannot redeclare App\Controllers\Home::bm()
+in APPPATH\Controllers\Home.php on line 696.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-18 04:44:06 --> Cannot redeclare App\Controllers\Home::bm()
+in APPPATH\Controllers\Home.php on line 696.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-18 04:44:06 --> Cannot redeclare App\Controllers\Home::bm()
+in APPPATH\Controllers\Home.php on line 696.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-18 04:44:45 --> Cannot redeclare App\Controllers\Home::bm()
+in APPPATH\Controllers\Home.php on line 696.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-18 04:44:47 --> Cannot redeclare App\Controllers\Home::bm()
+in APPPATH\Controllers\Home.php on line 696.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-18 04:44:51 --> Cannot redeclare App\Controllers\Home::bm()
+in APPPATH\Controllers\Home.php on line 696.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-18 05:13:35 --> Too few arguments to function App\Controllers\Home::pp(), 0 passed in C:\ari\system\CodeIgniter.php on line 915 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 542.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->pp()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')

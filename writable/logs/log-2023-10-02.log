@@ -1,0 +1,61 @@
+CRITICAL - 2023-10-02 04:26:12 --> Undefined property: stdClass::$nama_brg
+in APPPATH\Views\brg_msk.php on line 43.
+ 1 APPPATH\Views\brg_msk.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_brg', 'C:\\ari\\app\\Views\\brg_msk.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\ari\\app\\Views\\brg_msk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('brg_msk', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('brg_msk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->bm()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+ERROR - 2023-10-02 07:17:08 --> mysqli_sql_exception: Unknown column 'nama' in 'field list' in C:\ari\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ari\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `brg_k` ...', 0)
+#1 C:\ari\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `brg_k` ...')
+#2 C:\ari\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `brg_k` ...')
+#3 C:\ari\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `brg_k` ...', Array, false)
+#4 C:\ari\app\Models\M_gudang.php(40): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\ari\app\Controllers\Home.php(234): App\Models\M_gudang->edit('brg_k', Array, Array)
+#6 C:\ari\system\CodeIgniter.php(915): App\Controllers\Home->aksi_edit_barangk()
+#7 C:\ari\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\ari\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ari\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\ari\system\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\i...')
+#11 {main}
+CRITICAL - 2023-10-02 07:17:08 --> Unknown column 'nama' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `brg_k` SET `id_brg` = :id_brg:, `nama` = :nama:, `tgl_k` = :tgl_k:
+WHERE `id_bk` = :id_bk:', [...], false)
+ 2 APPPATH\Models\M_gudang.php(40): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 3 APPPATH\Controllers\Home.php(234): App\Models\M_gudang->edit('brg_k', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_edit_barangk()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-02 07:17:59 --> Undefined property: stdClass::$nama_brg
+in APPPATH\Views\e_barangk.php on line 28.
+ 1 APPPATH\Views\e_barangk.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_brg', 'C:\\ari\\app\\Views\\e_barangk.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\ari\\app\\Views\\e_barangk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('e_barangk', [], true)
+ 5 APPPATH\Controllers\Home.php(214): view('e_barangk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->edit_barangk('10')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
+CRITICAL - 2023-10-02 07:32:27 --> Undefined property: stdClass::$id_brg
+in APPPATH\Views\e_usera.php on line 71.
+ 1 APPPATH\Views\e_usera.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_brg', 'C:\\ari\\app\\Views\\e_usera.php', 71)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\ari\\app\\Views\\e_usera.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('e_usera', [], true)
+ 5 APPPATH\Controllers\Home.php(290): view('e_usera', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->edit_user('5')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\ari\\public\\index.php')
